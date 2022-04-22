@@ -52,13 +52,6 @@ class Character extends FlxSprite
 	public var isPlayer:Bool = false;
 	public var curCharacter:String = DEFAULT_CHARACTER;
 
-function jointex(frames1:FlxAtlasFrames, frames2:FlxAtlasFrames) {
-		for (frame in frames2.frames){
-			frames1.pushFrame(frame);
-		}
-		return frames1;
-	}
-
 	public var colorTween:FlxTween;
 	public var holdTimer:Float = 0;
 	public var heyTimer:Float = 0;
@@ -101,37 +94,7 @@ function jointex(frames1:FlxAtlasFrames, frames2:FlxAtlasFrames) {
 		var library:String = null;
 		switch (curCharacter)
 		{
-			case 'parents-christmas':
-		var tex = Paths.getSparrowAtlas('characters/mom_dad_christmas_assets');
-        var tex2 = Paths.getSparrowAtlas('characters/mom_dad_christmas_assets_2');
-		var tex3 = Paths.getSparrowAtlas('characters/mom_dad_christmas_assets_3');
-
-				tex = jointex(tex, jointex(tex2, tex3));
-				
-				frames = tex;
-				animation.addByPrefix('idle', 'Parent Christmas Idle', 24, false);
-				animation.addByPrefix('singUP', 'Parent Up Note Dad', 24, false);
-				animation.addByPrefix('singDOWN', 'Parent Down Note Dad', 24, false);
-				animation.addByPrefix('singLEFT', 'Parent Left Note Dad', 24, false);
-				animation.addByPrefix('singRIGHT', 'Parent Right Note Dad', 24, false);
-
-				animation.addByPrefix('singUP-alt', 'Parent Up Note Mom', 24, false);
-
-				animation.addByPrefix('singDOWN-alt', 'Parent Down Note Mom', 24, false);
-				animation.addByPrefix('singLEFT-alt', 'Parent Left Note Mom', 24, false);
-				animation.addByPrefix('singRIGHT-alt', 'Parent Right Note Mom', 24, false);
-
-				addOffset('idle');
-				addOffset("singUP", -5, 6);
-				addOffset("singRIGHT", -40, -40);
-				addOffset("singLEFT", 8, -14);
-				addOffset("singDOWN", 6, -72);
-				addOffset("singUP-alt", 1, 5);
-				addOffset("singRIGHT-alt", -39, 10);
-				addOffset("singLEFT-alt", 12, -15);
-				addOffset("singDOWN-alt", 12, -23);
-
-				playAnim('idle');
+			//case 'your character name in case you want to hardcode them instead':
 
 			default:
 				var characterPath:String = 'characters/' + curCharacter + '.json';
