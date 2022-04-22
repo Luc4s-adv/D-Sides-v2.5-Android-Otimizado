@@ -104,7 +104,7 @@ function jointex(frames1:FlxAtlasFrames, frames2:FlxAtlasFrames) {
 			case 'parents-christmas':
 		var tex = Paths.getSparrowAtlas('characters/mom_dad_christmas_assets');
         var tex2 = Paths.getSparrowAtlas('characters/mom_dad_christmas_assets_2');
-		var tex3 = Paths.getSparrowAtlas('characters/mom_dad_christmas_assets_2');
+		var tex3 = Paths.getSparrowAtlas('characters/mom_dad_christmas_assets_3');
 
 				tex = jointex(tex, jointex(tex2, tex3));
 				
