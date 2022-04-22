@@ -772,6 +772,9 @@ class PlayState extends MusicBeatState
 
 				eggballs = new FlxSprite(-645, -307);
 				eggballs.frames = Paths.getSparrowAtlas('EggBursting');
+	eggballs.setGraphicSize(Std.int(eggballs.width * 2));
+	
+	eggballs.updateHitbox();
 				eggballs.scrollFactor.set(0.6, 0.6);
 				eggballs.animation.addByPrefix('burst', 'EggBursting', 24, false);
 				eggballs.animation.addByPrefix('idle', 'EvilEgg', 24, false);

@@ -52,14 +52,15 @@ class Character extends FlxSprite
 	public var isPlayer:Bool = false;
 	public var curCharacter:String = DEFAULT_CHARACTER;
 
-	public var colorTween:FlxTween;
-	public var holdTimer:Float = 0;
 	function jointex(frames1:FlxAtlasFrames, frames2:FlxAtlasFrames) {
 		for (frame in frames2.frames){
 			frames1.pushFrame(frame);
 		}
 		return frames1;
 	}
+
+	public var colorTween:FlxTween;
+	public var holdTimer:Float = 0;
 	public var heyTimer:Float = 0;
 	public var specialAnim:Bool = false;
 	public var animationNotes:Array<Dynamic> = [];
@@ -389,7 +390,6 @@ class Character extends FlxSprite
 	{
 		animOffsets[name] = [x, y];
 	}
-
 	public function animation.addByPrefix(name:String, anim:String)
 	{
 		animation.addByPrefix(name, anim, 24, false);
