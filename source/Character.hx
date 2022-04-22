@@ -102,9 +102,10 @@ function jointex(frames1:FlxAtlasFrames, frames2:FlxAtlasFrames) {
 		switch (curCharacter)
 		{
 			case 'parents-christmas':
-				tex = Paths.getSparrowAtlas('characters/mom_dad_christmas_assets');
+		var tex = Paths.getSparrowAtlas('characters/mom_dad_christmas_assets');
+        var tex2 = Paths.getSparrowAtlas('characters/mom_dad_christmas_assets_2');
 
-				tex = jointex(tex, Paths.getSparrowAtlas('characters/mom_dad_christmas_assets_2'));
+        tex = jointex(tex, tex2);
 
 				frames = tex;
 				animation.addByPrefix('idle', 'Parent Christmas Idle', 24, false);
