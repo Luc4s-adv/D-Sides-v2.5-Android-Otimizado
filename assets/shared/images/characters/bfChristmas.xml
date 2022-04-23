@@ -219,65 +219,22 @@
 	<SubTexture name="BF dies0012" x="2544" y="2894" width="424" height="434"/>
 	<SubTexture name="BF dies0013" x="2544" y="2894" width="424" height="434"/>
 	<SubTexture name="BF dies0014" x="2544" y="2894" width="424" height="434"/>
-	<SubTexture name="BF dies0015" x="2968" y="2894" width="424" height="434"/>
-	<SubTexture name="BF dies0016" x="2968" y="2894" width="424" height="434"/>
-	<SubTexture name="BF dies0017" x="2968" y="2894" width="424" height="434"/>
-	<SubTexture name="BF dies0018" x="3392" y="2894" width="424" height="434"/>
-	<SubTexture name="BF dies0019" x="3392" y="2894" width="424" height="434"/>
-	<SubTexture name="BF dies0020" x="0" y="3328" width="424" height="434"/>
-	<SubTexture name="BF dies0021" x="0" y="3328" width="424" height="434"/>
-	<SubTexture name="BF dies0022" x="424" y="3328" width="424" height="434"/>
-	<SubTexture name="BF dies0023" x="424" y="3328" width="424" height="434"/>
-	<SubTexture name="BF dies0024" x="848" y="3328" width="424" height="434"/>
-	<SubTexture name="BF dies0025" x="1272" y="3328" width="424" height="434"/>
-	<SubTexture name="BF dies0026" x="1272" y="3328" width="424" height="434"/>
-	<SubTexture name="BF dies0027" x="1696" y="3328" width="424" height="434"/>
-	<SubTexture name="BF dies0028" x="1696" y="3328" width="424" height="434"/>
-	<SubTexture name="BF dies0029" x="2120" y="3328" width="424" height="434"/>
-	<SubTexture name="BF dies0030" x="2120" y="3328" width="424" height="434"/>
-	<SubTexture name="BF dies0031" x="2544" y="3328" width="424" height="434"/>
-	<SubTexture name="BF dies0032" x="2544" y="3328" width="424" height="434"/>
-	<SubTexture name="BF dies0033" x="2544" y="3328" width="424" height="434"/>
-	<SubTexture name="BF dies0034" x="2544" y="3328" width="424" height="434"/>
-	<SubTexture name="BF dies0035" x="2968" y="3328" width="424" height="434"/>
-	<SubTexture name="BF dies0036" x="3392" y="3328" width="424" height="434"/>
-	<SubTexture name="BF dies0037" x="0" y="3762" width="424" height="434"/>
-	<SubTexture name="BF dies0038" x="424" y="3762" width="424" height="434"/>
-	<SubTexture name="BF dies0039" x="848" y="3762" width="424" height="434"/>
-	<SubTexture name="BF dies0040" x="1272" y="3762" width="424" height="434"/>
-	<SubTexture name="BF dies0041" x="1696" y="3762" width="424" height="434"/>
-	<SubTexture name="BF dies0042" x="2120" y="3762" width="424" height="434"/>
-	<SubTexture name="BF dies0043" x="2544" y="3762" width="424" height="434"/>
-	<SubTexture name="BF dies0044" x="2968" y="3762" width="424" height="434"/>
-	<SubTexture name="BF dies0045" x="3392" y="3762" width="424" height="434"/>
-	<SubTexture name="BF dies0046" x="0" y="4196" width="424" height="434"/>
-	<SubTexture name="BF dies0047" x="424" y="4196" width="424" height="434"/>
-	<SubTexture name="BF dies0048" x="848" y="4196" width="424" height="434"/>
-	<SubTexture name="BF dies0049" x="1272" y="4196" width="424" height="434"/>
-	<SubTexture name="BF dies0050" x="1696" y="4196" width="424" height="434"/>
-	<SubTexture name="BF dies0051" x="2120" y="4196" width="424" height="434"/>
-	<SubTexture name="BF dies0052" x="2544" y="4196" width="424" height="434"/>
-	<SubTexture name="BF dies0053" x="2968" y="4196" width="424" height="434"/>
-	<SubTexture name="BF dies0054" x="2968" y="4196" width="424" height="434"/>
-	<SubTexture name="BF dies0055" x="2968" y="4196" width="424" height="434"/>
-	<SubTexture name="BF dies0056" x="2968" y="4196" width="424" height="434"/>
-	<SubTexture name="BF dies0057" x="2968" y="4196" width="424" height="434"/>
-	<SubTexture name="BF idle dance0000" x="3392" y="4196" width="467" height="417" pivotX="0.35" pivotY="0"/>
-	<SubTexture name="BF idle dance0001" x="3392" y="4196" width="467" height="417"/>
-	<SubTexture name="BF idle dance0002" x="0" y="4630" width="467" height="417"/>
-	<SubTexture name="BF idle dance0003" x="0" y="4630" width="467" height="417"/>
-	<SubTexture name="BF idle dance0004" x="467" y="4630" width="467" height="417"/>
-	<SubTexture name="BF idle dance0005" x="467" y="4630" width="467" height="417"/>
-	<SubTexture name="BF idle dance0006" x="934" y="4630" width="467" height="417"/>
-	<SubTexture name="BF idle dance0007" x="934" y="4630" width="467" height="417"/>
-	<SubTexture name="BF idle dance0008" x="1401" y="4630" width="467" height="417"/>
-	<SubTexture name="BF idle dance0009" x="1401" y="4630" width="467" height="417"/>
-	<SubTexture name="BF idle dance0010" x="1401" y="4630" width="467" height="417"/>
-	<SubTexture name="BF idle dance0011" x="1401" y="4630" width="467" height="417"/>
-	<SubTexture name="BF idle dance0012" x="1401" y="4630" width="467" height="417"/>
-	<SubTexture name="BF idle dance0013" x="1401" y="4630" width="467" height="417"/>
-	<SubTexture name="BF idle shaking0000" x="1868" y="4630" width="460" height="419" pivotX="0" pivotY="1.8"/>
-	<SubTexture name="BF idle shaking0001" x="2328" y="4630" width="460" height="419"/>
-	<SubTexture name="BF idle shaking0002" x="2788" y="4630" width="460" height="419"/>
-	<SubTexture name="BF idle shaking0003" x="3248" y="4630" width="460" height="419"/>
+	<SubTexture name="BF idle dance0000" x="3392" y="2929" width="467" height="417" pivotX="0.35" pivotY="0"/>
+	<SubTexture name="BF idle dance0001" x="3392" y="2929" width="467" height="417"/>
+	<SubTexture name="BF idle dance0002" x="0" y="3361" width="467" height="417"/>
+	<SubTexture name="BF idle dance0003" x="0" y="3361" width="467" height="417"/>
+	<SubTexture name="BF idle dance0004" x="467" y="3361" width="467" height="417"/>
+	<SubTexture name="BF idle dance0005" x="467" y="3361" width="467" height="417"/>
+	<SubTexture name="BF idle dance0006" x="934" y="3361" width="467" height="417"/>
+	<SubTexture name="BF idle dance0007" x="934" y="3361" width="467" height="417"/>
+	<SubTexture name="BF idle dance0008" x="1401" y="3361" width="467" height="417"/>
+	<SubTexture name="BF idle dance0009" x="1401" y="3361" width="467" height="417"/>
+	<SubTexture name="BF idle dance0010" x="1401" y="3361" width="467" height="417"/>
+	<SubTexture name="BF idle dance0011" x="1401" y="3361" width="467" height="417"/>
+	<SubTexture name="BF idle dance0012" x="1401" y="3361" width="467" height="417"/>
+	<SubTexture name="BF idle dance0013" x="1401" y="3361" width="467" height="417"/>
+	<SubTexture name="BF idle shaking0000" x="1868" y="3361" width="460" height="419" pivotX="0" pivotY="1.8"/>
+	<SubTexture name="BF idle shaking0001" x="2328" y="3361" width="460" height="419"/>
+	<SubTexture name="BF idle shaking0002" x="2788" y="3361" width="460" height="419"/>
+	<SubTexture name="BF idle shaking0003" x="3248" y="3361" width="460" height="419"/>
 </TextureAtlas>
