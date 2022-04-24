@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="monsterChristmas.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="monsterdownlemon0000" x="0" y="0" width="755" height="720" pivotX="587.8" pivotY="388.55" frameX="0" frameY="-8" frameWidth="755" frameHeight="728"/>
+	<SubTexture name="monsterdownlemon0001" x="755" y="0" width="755" height="720" frameX="0" frameY="-8" frameWidth="755" frameHeight="728"/>
+	<SubTexture name="monsterdownlemon0002" x="1510" y="0" width="726" height="728" frameX="-14" frameY="0" frameWidth="755" frameHeight="728"/>
+	<SubTexture name="monsterdownlemon0003" x="2236" y="0" width="726" height="728" frameX="-14" frameY="0" frameWidth="755" frameHeight="728"/>
+	<SubTexture name="monsterdownlemon0004" x="2236" y="0" width="726" height="728" frameX="-14" frameY="0" frameWidth="755" frameHeight="728"/>
+	<SubTexture name="monsterdownlemon0005" x="0" y="897" width="726" height="728" frameX="-14" frameY="0" frameWidth="755" frameHeight="728"/>
+	<SubTexture name="monsterdownlemon0006" x="2236" y="0" width="726" height="728" frameX="-14" frameY="0" frameWidth="755" frameHeight="728"/>
+	<SubTexture name="monsterdownlemon0007" x="0" y="897" width="726" height="728" frameX="-14" frameY="0" frameWidth="755" frameHeight="728"/>
+	<SubTexture name="monsterdownlemon0008" x="2236" y="0" width="726" height="728" frameX="-14" frameY="0" frameWidth="755" frameHeight="728"/>
+	<SubTexture name="monsterdownlemon0009" x="0" y="897" width="726" height="728" frameX="-14" frameY="0" frameWidth="755" frameHeight="728"/>
+	<SubTexture name="monsterdownlemon0010" x="2236" y="0" width="726" height="728" frameX="-14" frameY="0" frameWidth="755" frameHeight="728"/>
+	<SubTexture name="monsterdownlemon0011" x="0" y="897" width="726" height="728" frameX="-14" frameY="0" frameWidth="755" frameHeight="728"/>
+	<SubTexture name="monsterdownlemon0012" x="2236" y="0" width="726" height="728" frameX="-14" frameY="0" frameWidth="755" frameHeight="728"/>
+	<SubTexture name="monsterdownlemon0013" x="0" y="897" width="726" height="728" frameX="-14" frameY="0" frameWidth="755" frameHeight="728"/>
+	<SubTexture name="monsterdownlemon0014" x="2236" y="0" width="726" height="728" frameX="-14" frameY="0" frameWidth="755" frameHeight="728"/>
+	<SubTexture name="monsterdownlemon0015" x="0" y="897" width="726" height="728" frameX="-14" frameY="0" frameWidth="755" frameHeight="728"/>
+	<SubTexture name="monsterdownlemon0016" x="2236" y="0" width="726" height="728" frameX="-14" frameY="0" frameWidth="755" frameHeight="728"/>
+	<SubTexture name="monsterdownlemon0017" x="0" y="897" width="726" height="728" frameX="-14" frameY="0" frameWidth="755" frameHeight="728"/>
+	<SubTexture name="monsterdownlemon0018" x="2236" y="0" width="726" height="728" frameX="-14" frameY="0" frameWidth="755" frameHeight="728"/>
+	<SubTexture name="monsterlrightlemon0000" x="726" y="897" width="745" height="848" pivotX="573.55" pivotY="498.1" frameX="-2" frameY="0" frameWidth="747" frameHeight="848"/>
+	<SubTexture name="monsterlrightlemon0001" x="1471" y="897" width="745" height="848" frameX="-2" frameY="0" frameWidth="747" frameHeight="848"/>
+	<SubTexture name="monsterlrightlemon0002" x="2216" y="897" width="744" height="838" frameX="0" frameY="-10" frameWidth="747" frameHeight="848"/>
+	<SubTexture name="monsterlrightlemon0003" x="2960" y="897" width="744" height="838" frameX="0" frameY="-10" frameWidth="747" frameHeight="848"/>
+	<SubTexture name="monsterrleftlemon0000" x="0" y="2785" width="721" height="763" pivotX="569.25" pivotY="443.95" frameX="0" frameY="-27" frameWidth="727" frameHeight="790"/>
+	<SubTexture name="monsterrleftlemon0001" x="721" y="2785" width="721" height="763" frameX="0" frameY="-27" frameWidth="727" frameHeight="790"/>
+	<SubTexture name="monsterrleftlemon0002" x="1442" y="2785" width="722" height="790" frameX="-5" frameY="0" frameWidth="727" frameHeight="790"/>
+	<SubTexture name="monsterrleftlemon0003" x="2163" y="2785" width="722" height="790" frameX="-5" frameY="0" frameWidth="727" frameHeight="790"/>
+	<SubTexture name="monsterrleftlemon0004" x="0" y="1745" width="722" height="784" frameX="-5" frameY="-6" frameWidth="727" frameHeight="790"/>
+	<SubTexture name="monsterrleftlemon0005" x="722" y="1745" width="722" height="784" frameX="-5" frameY="-6" frameWidth="727" frameHeight="790"/>
+	<SubTexture name="monsterrleftlemon0006" x="0" y="1745" width="722" height="784" frameX="-5" frameY="-6" frameWidth="727" frameHeight="790"/>
+	<SubTexture name="monsterrleftlemon0007" x="722" y="1745" width="722" height="784" frameX="-5" frameY="-6" frameWidth="727" frameHeight="790"/>
+	<SubTexture name="monsterrleftlemon0008" x="0" y="1745" width="722" height="784" frameX="-5" frameY="-6" frameWidth="727" frameHeight="790"/>
+	<SubTexture name="monsterrleftlemon0009" x="722" y="1745" width="722" height="784" frameX="-5" frameY="-6" frameWidth="727" frameHeight="790"/>
+	<SubTexture name="monsterrleftlemon0010" x="0" y="1745" width="722" height="784" frameX="-5" frameY="-6" frameWidth="727" frameHeight="790"/>
+	<SubTexture name="monsterrleftlemon0011" x="722" y="1745" width="722" height="784" frameX="-5" frameY="-6" frameWidth="727" frameHeight="790"/>
+	<SubTexture name="monsterrleftlemon0012" x="0" y="1745" width="722" height="784" frameX="-5" frameY="-6" frameWidth="727" frameHeight="790"/>
+	<SubTexture name="monsterrleftlemon0013" x="722" y="1745" width="722" height="784" frameX="-5" frameY="-6" frameWidth="727" frameHeight="790"/>
+	<SubTexture name="monsterrleftlemon0014" x="0" y="1745" width="722" height="784" frameX="-5" frameY="-6" frameWidth="727" frameHeight="790"/>
+	<SubTexture name="monsterrleftlemon0015" x="722" y="1745" width="722" height="784" frameX="-5" frameY="-6" frameWidth="727" frameHeight="790"/>
+	<SubTexture name="monsterrleftlemon0016" x="0" y="1745" width="722" height="784" frameX="-5" frameY="-6" frameWidth="727" frameHeight="790"/>
+	<SubTexture name="monsterrleftlemon0017" x="722" y="1745" width="722" height="784" frameX="-5" frameY="-6" frameWidth="727" frameHeight="790"/>
+	<SubTexture name="monsterrleftlemon0018" x="0" y="1745" width="722" height="784" frameX="-5" frameY="-6" frameWidth="727" frameHeight="790"/>
+	<SubTexture name="monsterrleftlemon0019" x="722" y="1745" width="722" height="784" frameX="-5" frameY="-6" frameWidth="727" frameHeight="790"/>
+	<SubTexture name="monsterrleftlemon0020" x="0" y="1745" width="722" height="784" frameX="-5" frameY="-6" frameWidth="727" frameHeight="790"/>
+	<SubTexture name="monsterrleftlemon0021" x="722" y="1745" width="722" height="784" frameX="-5" frameY="-6" frameWidth="727" frameHeight="790"/>
+	<SubTexture name="monsterrleftlemon0022" x="0" y="1745" width="722" height="784" frameX="-5" frameY="-6" frameWidth="727" frameHeight="790"/>
+	<SubTexture name="monsterrleftlemon0023" x="722" y="1745" width="722" height="784" frameX="-5" frameY="-6" frameWidth="727" frameHeight="790"/>
+	<SubTexture name="monsterrleftlemon0024" x="0" y="1745" width="722" height="784" frameX="-5" frameY="-6" frameWidth="727" frameHeight="790"/>
+	<SubTexture name="monsterrleftlemon0025" x="722" y="1745" width="722" height="784" frameX="-5" frameY="-6" frameWidth="727" frameHeight="790"/>
+	<SubTexture name="monsteruplemon0000" x="1444" y="1745" width="716" height="936" pivotX="570.05" pivotY="585.85" frameX="-12" frameY="0" frameWidth="741" frameHeight="936"/>
+	<SubTexture name="monsteruplemon0001" x="2160" y="1745" width="716" height="936" frameX="-12" frameY="0" frameWidth="741" frameHeight="936"/>
+	<SubTexture name="monsteruplemon0002" x="2876" y="1745" width="741" height="933" frameX="0" frameY="-3" frameWidth="741" frameHeight="936"/>
+</TextureAtlas>
