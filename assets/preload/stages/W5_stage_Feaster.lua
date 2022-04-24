@@ -1,4 +1,5 @@
 function onCreate()
+--Bug fix do stage
 setProperty('dadGroup.visible',true)
 setProperty('gfGroup.alpha',1)
 	makeLuaSprite('egg','W5/evilTree', 298, -307)
