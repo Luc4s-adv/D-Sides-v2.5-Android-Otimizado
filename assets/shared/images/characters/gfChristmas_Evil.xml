@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gfChristmas_Evil">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GF Dancing Beat EVIL0000" x="0" y="751" width="699" height="708" frameX="-2" frameY="-43" frameWidth="703" frameHeight="751"/>
+	<SubTexture name="GF Dancing Beat EVIL0001" x="699" y="751" width="699" height="708" frameX="-2" frameY="-43" frameWidth="703" frameHeight="751"/>
+	<SubTexture name="GF Dancing Beat EVIL0002" x="1398" y="751" width="699" height="713" frameX="-2" frameY="-38" frameWidth="703" frameHeight="751"/>
+	<SubTexture name="GF Dancing Beat EVIL0003" x="2097" y="751" width="699" height="745" frameX="-2" frameY="-6" frameWidth="703" frameHeight="751"/>
+	<SubTexture name="GF Dancing Beat EVIL0004" x="2097" y="751" width="699" height="745" frameX="-2" frameY="-6" frameWidth="703" frameHeight="751"/>
+	<SubTexture name="GF Dancing Beat EVIL0005" x="2097" y="751" width="699" height="745" frameX="-2" frameY="-6" frameWidth="703" frameHeight="751"/>
+	<SubTexture name="GF Dancing Beat EVIL0006" x="2796" y="751" width="699" height="751" frameX="-2" frameY="0" frameWidth="703" frameHeight="751"/>
+	<SubTexture name="GF Dancing Beat EVIL0007" x="2796" y="751" width="699" height="751" frameX="-2" frameY="0" frameWidth="703" frameHeight="751"/>
+	<SubTexture name="GF Dancing Beat EVIL0008" x="2796" y="751" width="699" height="751" frameX="-2" frameY="0" frameWidth="703" frameHeight="751"/>
+	<SubTexture name="GF Dancing Beat EVIL0009" x="2796" y="751" width="699" height="751" frameX="-2" frameY="0" frameWidth="703" frameHeight="751"/>
+	<SubTexture name="GF Dancing Beat EVIL0010" x="2796" y="751" width="699" height="751" frameX="-2" frameY="0" frameWidth="703" frameHeight="751"/>
+	<SubTexture name="GF Dancing Beat EVIL0011" x="2796" y="751" width="699" height="751" frameX="-2" frameY="0" frameWidth="703" frameHeight="751"/>
+	<SubTexture name="GF Dancing Beat EVIL0012" x="2796" y="751" width="699" height="751" frameX="-2" frameY="0" frameWidth="703" frameHeight="751"/>
+	<SubTexture name="GF Dancing Beat EVIL0013" x="2796" y="751" width="699" height="751" frameX="-2" frameY="0" frameWidth="703" frameHeight="751"/>
+	<SubTexture name="GF Dancing Beat EVIL0014" x="2796" y="751" width="699" height="751" frameX="-2" frameY="0" frameWidth="703" frameHeight="751"/>
+	<SubTexture name="GF Dancing Beat EVIL0015" x="2796" y="751" width="699" height="751" frameX="-2" frameY="0" frameWidth="703" frameHeight="751"/>
+	<SubTexture name="GF Dancing Beat EVIL0016" x="0" y="1502" width="699" height="745" frameX="-2" frameY="-6" frameWidth="703" frameHeight="751"/>
+	<SubTexture name="GF Dancing Beat EVIL0017" x="699" y="1502" width="699" height="743" frameX="-2" frameY="-8" frameWidth="703" frameHeight="751"/>
+	<SubTexture name="GF Dancing Beat EVIL0018" x="1398" y="1502" width="699" height="726" frameX="-2" frameY="-25" frameWidth="703" frameHeight="751"/>
+	<SubTexture name="GF Dancing Beat EVIL0019" x="1398" y="1502" width="699" height="726" frameX="-2" frameY="-25" frameWidth="703" frameHeight="751"/>
+	<SubTexture name="GF Dancing Beat EVIL0020" x="1398" y="1502" width="699" height="726" frameX="-2" frameY="-25" frameWidth="703" frameHeight="751"/>
+	<SubTexture name="GF Dancing Beat EVIL0021" x="2097" y="1502" width="699" height="724" frameX="-2" frameY="-27" frameWidth="703" frameHeight="751"/>
+	<SubTexture name="GF Dancing Beat EVIL0022" x="2097" y="1502" width="699" height="724" frameX="-2" frameY="-27" frameWidth="703" frameHeight="751"/>
+	<SubTexture name="GF Dancing Beat EVIL0023" x="2097" y="1502" width="699" height="724" frameX="-2" frameY="-27" frameWidth="703" frameHeight="751"/>
+	<SubTexture name="GF Dancing Beat EVIL0024" x="2097" y="1502" width="699" height="724" frameX="-2" frameY="-27" frameWidth="703" frameHeight="751"/>
+	<SubTexture name="GF Dancing Beat EVIL0025" x="2097" y="1502" width="699" height="724" frameX="-2" frameY="-27" frameWidth="703" frameHeight="751"/>
+</TextureAtlas>
