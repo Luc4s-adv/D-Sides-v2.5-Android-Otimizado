@@ -3166,7 +3166,43 @@
 			{
 				"lengthInSteps": 16,
 				"typeOfSection": 0,
-				"sectionNotes": [],
+				"sectionNotes": [
+					[
+						85000,
+						1,
+						234.375
+					],
+					[
+						85312.5,
+						3,
+						0
+					],
+					[
+						85000,
+						1,
+						0
+					],
+					[
+						85468.75,
+						0,
+						234.375
+					],
+					[
+						86171.875,
+						3,
+						0
+					],
+					[
+						85000,
+						1,
+						0
+					],
+					[
+						86171.875,
+						1,
+						0
+					]
+				],
 				"altAnim": false,
 				"gfSection": false,
 				"bpm": 186,
@@ -3176,7 +3212,33 @@
 			{
 				"lengthInSteps": 16,
 				"typeOfSection": 0,
-				"sectionNotes": [],
+				"sectionNotes": [
+					[
+						86484.375,
+						0,
+						234.375
+					],
+					[
+						86875,
+						3,
+						0
+					],
+					[
+						86875,
+						3,
+						0
+					],
+					[
+						87109.375,
+						2,
+						0
+					],
+					[
+						87109.375,
+						0,
+						0
+					]
+				],
 				"altAnim": false,
 				"gfSection": false,
 				"bpm": 186,
@@ -3186,7 +3248,38 @@
 			{
 				"lengthInSteps": 16,
 				"typeOfSection": 0,
-				"sectionNotes": [],
+				"sectionNotes": [
+					[
+						87500,
+						1,
+						156.25
+					],
+					[
+						88125,
+						3,
+						156.25
+					],
+					[
+						88437.5,
+						0,
+						195.3125
+					],
+					[
+						87500,
+						1,
+						0
+					],
+					[
+						88437.5,
+						1,
+						0
+					],
+					[
+						87734.375,
+						2,
+						234.375
+					]
+				],
 				"altAnim": false,
 				"gfSection": false,
 				"bpm": 186,
@@ -3196,7 +3289,28 @@
 			{
 				"lengthInSteps": 16,
 				"typeOfSection": 0,
-				"sectionNotes": [],
+				"sectionNotes": [
+					[
+						88750,
+						1,
+						0
+					],
+					[
+						88750,
+						1,
+						0
+					],
+					[
+						88906.25,
+						1,
+						0
+					],
+					[
+						89218.75,
+						3,
+						156.25
+					]
+				],
 				"altAnim": false,
 				"gfSection": false,
 				"bpm": 186,
@@ -3206,7 +3320,28 @@
 			{
 				"lengthInSteps": 16,
 				"typeOfSection": 0,
-				"sectionNotes": [],
+				"sectionNotes": [
+					[
+						90000,
+						0,
+						156.25
+					],
+					[
+						90234.375,
+						3,
+						156.25
+					],
+					[
+						90546.875,
+						1,
+						351.5625
+					],
+					[
+						91093.75,
+						2,
+						0
+					]
+				],
 				"altAnim": false,
 				"gfSection": false,
 				"bpm": 186,
@@ -3216,7 +3351,28 @@
 			{
 				"lengthInSteps": 16,
 				"typeOfSection": 0,
-				"sectionNotes": [],
+				"sectionNotes": [
+					[
+						91250,
+						1,
+						312.5
+					],
+					[
+						91796.875,
+						3,
+						195.3125
+					],
+					[
+						92421.875,
+						2,
+						0
+					],
+					[
+						92421.875,
+						0,
+						0
+					]
+				],
 				"altAnim": false,
 				"gfSection": false,
 				"bpm": 186,
@@ -3226,7 +3382,28 @@
 			{
 				"lengthInSteps": 16,
 				"typeOfSection": 0,
-				"sectionNotes": [],
+				"sectionNotes": [
+					[
+						92812.5,
+						3,
+						351.5625
+					],
+					[
+						92734.375,
+						1,
+						0
+					],
+					[
+						92734.375,
+						1,
+						0
+					],
+					[
+						93671.875,
+						3,
+						0
+					]
+				],
 				"altAnim": false,
 				"gfSection": false,
 				"bpm": 186,
@@ -3236,7 +3413,13 @@
 			{
 				"lengthInSteps": 16,
 				"typeOfSection": 0,
-				"sectionNotes": [],
+				"sectionNotes": [
+					[
+						93828.125,
+						0,
+						273.4375
+					]
+				],
 				"altAnim": false,
 				"gfSection": false,
 				"bpm": 186,
@@ -5831,14 +6014,104 @@
 				"bpm": 192
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
-				"altAnim": false,
 				"typeOfSection": 0,
 				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
 				"bpm": 192,
 				"changeBPM": false,
 				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 192,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 192,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 192,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 192,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 192
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 192
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 192
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 192
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 192
 			},
 			{
 				"gfSection": false,
@@ -5964,22 +6237,22 @@
 				]
 			],
 			[
-				84998.046875,
-				[
-					[
-						"Change Character",
-						"1",
-						"mightyline"
-					]
-				]
-			],
-			[
 				85000,
 				[
 					[
 						"Lyrics",
 						"In the Notepad",
 						""
+					]
+				]
+			],
+			[
+				85781.25,
+				[
+					[
+						"Play Animation",
+						"Laugh",
+						"sonic"
 					]
 				]
 			],
@@ -6014,12 +6287,42 @@
 				]
 			],
 			[
+				89453.125,
+				[
+					[
+						"Play Animation",
+						"Laugh",
+						"sonic"
+					]
+				]
+			],
+			[
 				90000,
 				[
 					[
 						"Lyrics",
 						"Time will march,",
 						""
+					]
+				]
+			],
+			[
+				90000,
+				[
+					[
+						"Play Animation",
+						"",
+						""
+					]
+				]
+			],
+			[
+				91015.625,
+				[
+					[
+						"Play Animation",
+						"prepping",
+						"sonic"
 					]
 				]
 			],
@@ -6034,6 +6337,16 @@
 				]
 			],
 			[
+				91640.625,
+				[
+					[
+						"Play Animation",
+						"prepping",
+						"sonic"
+					]
+				]
+			],
+			[
 				92187.5,
 				[
 					[
@@ -6044,12 +6357,62 @@
 				]
 			],
 			[
+				92265.625,
+				[
+					[
+						"Play Animation",
+						"prepping",
+						"sonic"
+					]
+				]
+			],
+			[
+				93359.375,
+				[
+					[
+						"Play Animation",
+						"prepping",
+						"sonic"
+					]
+				]
+			],
+			[
 				93437.5,
 				[
 					[
 						"Lyrics",
 						"YOU'LL EVER SEE.",
 						"#c940ff"
+					]
+				]
+			],
+			[
+				93437.5,
+				[
+					[
+						"",
+						"",
+						""
+					]
+				]
+			],
+			[
+				94218.75,
+				[
+					[
+						"Play Animation",
+						"Laugh",
+						"sonic"
+					]
+				]
+			],
+			[
+				94218.75,
+				[
+					[
+						"Play Animation",
+						"Laugh",
+						"sonic"
 					]
 				]
 			],
@@ -6227,48 +6590,63 @@
 				136250,
 				[
 					[
+						"Change Character",
+						"dad",
+						"sonic-2"
+					],
+					[
 						"Play Animation",
 						"ARGH",
-						"sonic"
+						"sonic-2"
 					]
 				]
 			],
 			[
-				136458.984375,
+				136484.375,
 				[
 					[
 						"Play Animation",
 						"ARGH",
-						"sonic"
+						"sonic-2"
 					]
 				]
 			],
 			[
-				136685.546875,
+				136718.75,
 				[
 					[
 						"Play Animation",
 						"ARGH",
-						"sonic"
+						"sonic-2"
 					]
 				]
 			],
 			[
-				136917.96875,
+				136953.125,
 				[
 					[
 						"Play Animation",
 						"ARGH",
-						"sonic"
+						"sonic-2"
 					]
 				]
 			],
 			[
-				137083.984375,
+				137187.5,
 				[
 					[
 						"Play Animation",
 						"ARGH",
+						"sonic-2"
+					]
+				]
+			],
+			[
+				137421.875,
+				[
+					[
+						"Change Character",
+						"dad",
 						"sonic"
 					]
 				]
@@ -6359,7 +6737,7 @@
 		"validScore": true,
 		"needsVoices": true,
 		"stage": "sonicstage",
-		"speed": 2.2,
+		"speed": 2.5,
 		"bpm": 192
 	}
 }
