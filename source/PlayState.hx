@@ -275,6 +275,7 @@ class PlayState extends MusicBeatState
 	public var songHits:Int = 0;
 	public var songMisses:Int = 0;
 	public var scoreTxt:FlxText;
+	var creditTxt:FlxText;
 	var timeTxt:FlxText;
 	var scoreTxtTween:FlxTween;
 
@@ -769,6 +770,17 @@ class PlayState extends MusicBeatState
 
 				audience2 = new BGSprite('W5/evilupperBop', -181, 254, 0.5, 0.5, ['Upper Crowd BobEvil']);
 				add(audience2);
+
+				eggballs = new FlxSprite(-645, -307);
+				eggballs.frames = Paths.getSparrowAtlas('EggBursting');
+	eggballs.setGraphicSize(Std.int(eggballs.width * 2));
+	
+	eggballs.updateHitbox();
+				eggballs.scrollFactor.set(0.6, 0.6);
+				eggballs.animation.addByPrefix('burst', 'EggBursting', 24, false);
+				eggballs.animation.addByPrefix('idle', 'EvilEgg', 24, false);
+				eggballs.visible = false;
+				add(eggballs);
 
 				audience = new FNFSprite(-153, -9);
 				audience.scrollFactor.set(1, 1);
@@ -1290,6 +1302,13 @@ class PlayState extends MusicBeatState
 		scoreTxt.visible = !ClientPrefs.hideHud;
 		add(scoreTxt);
 
+		creditTxt = new FlxText(876, 620, 348);
+        creditTxt.text = 'Portado por\nFirey/Lucas ADV';
+        creditTxt.setFormat(Paths.font("vcr.ttf"), 30, FlxColor.WHITE, RIGHT);
+        creditTxt.setBorderStyle(OUTLINE, FlxColor.BLACK, 3, 1);       
+        creditTxt.scrollFactor.set();
+        add(creditTxt);
+
 		botplayTxt = new FlxText(400, timeBarBG.y + 55, FlxG.width - 800, "BOTPLAY", 32);
 		botplayTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		botplayTxt.scrollFactor.set();
@@ -1413,6 +1432,31 @@ class PlayState extends MusicBeatState
 							});
 						});
 					});
+				case "feaster":
+					eggballs.visible = true;
+					eggballs.animation.play('burst');
+					FlxG.sound.play(Paths.sound('eggburst'));
+
+					FlxTween.tween(FlxG.camera, {zoom: 0.89}, 2.5, {
+						ease: FlxEase.quadInOut,
+						onComplete: function(twn:FlxTween)
+						{
+							FlxTween.tween(FlxG.camera, {zoom: 0.72}, 0.5, {ease: FlxEase.quadInOut});
+						}
+					});
+
+					eggballs.animation.finishCallback = function(pog:String)
+						{
+							FlxTween.tween(gfGroup, {alpha: 1}, 0.45);
+							FlxTween.tween(audience, {alpha: 1}, 0.45);
+							FlxTween.tween(FlxG.camera, {zoom: 0.65}, 0.5, {ease: FlxEase.quadInOut});
+
+							eggballs.animation.play('idle');
+							dadGroup.visible = true;
+							audience.visible = true;
+							dad.playAnim('enter', true);
+							startCountdown();
+						}
 				case 'senpai' | 'roses' | 'thorns':
 					if(isStoryMode){
 						if(daSong == 'roses') FlxG.sound.play(Paths.sound('ANGRY'));
@@ -1428,6 +1472,40 @@ class PlayState extends MusicBeatState
 		} else {
 			switch (daSong)
 			{
+				case "feaster":
+					eggballs.visible = true;
+					eggballs.animation.play('burst');
+					#if debug
+					FlxG.sound.play(Paths.sound('eggburst'));
+
+					FlxTween.tween(FlxG.camera, {zoom: 0.89}, 2.5, {
+						ease: FlxEase.quadInOut,
+						onComplete: function(twn:FlxTween)
+						{
+							FlxTween.tween(FlxG.camera, {zoom: 0.72}, 0.5, {ease: FlxEase.quadInOut});
+						}
+					});
+
+					eggballs.animation.finishCallback = function(pog:String)
+						{
+							#else
+							eggballs.animation.curAnim.curFrame = eggballs.animation.curAnim.frames.length;
+						#end
+
+
+							FlxTween.tween(gfGroup, {alpha: 1}, 0.45);
+							FlxTween.tween(audience, {alpha: 1}, 0.45);
+							FlxTween.tween(FlxG.camera, {zoom: 0.65}, 0.5, {ease: FlxEase.quadInOut});
+
+							eggballs.animation.play('idle');
+							dadGroup.visible = true;
+							audience.visible = true;
+							dad.playAnim('enter', true);
+							startCountdown();
+							#if debug
+						}
+							#end
+
 				default:
 					startCountdown();
 			}
