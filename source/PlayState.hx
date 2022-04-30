@@ -1301,10 +1301,10 @@ class PlayState extends MusicBeatState
 		scoreTxt.borderSize = 1.25;
 		scoreTxt.visible = !ClientPrefs.hideHud;
 		add(scoreTxt);
-
-		creditTxt = new FlxText(876, 642, 348);
-        creditTxt.text = 'OTIMIZADO por\nFirey/Lucas ADV\n PORTADO por JIGSAW';
-        creditTxt.setFormat(Paths.font("vcr.ttf"), 31, FlxColor.WHITE, RIGHT);
+--//Credits
+		creditTxt = new FlxText(876, 639, 348);
+        creditTxt.text = 'OTIMIZADO por\nFirey/Lucas ADV\n PORTADO por SAW';
+        creditTxt.setFormat(Paths.font("vcr.ttf"), 29, FlxColor.WHITE, RIGHT);
         creditTxt.setBorderStyle(OUTLINE, FlxColor.BLACK, 3, 1);       
         creditTxt.scrollFactor.set();
         add(creditTxt);
