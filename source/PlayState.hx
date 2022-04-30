@@ -1302,8 +1302,8 @@ class PlayState extends MusicBeatState
 		scoreTxt.visible = !ClientPrefs.hideHud;
 		add(scoreTxt);
 
-		creditTxt = new FlxText(876, 620, 348);
-        creditTxt.text = 'Portado por\nFirey/Lucas ADV';
+		creditTxt = new FlxText(0, 630, 348);
+        creditTxt.text = 'OTIMIZADO por\nFirey/Lucas ADV\n PORTADO por JIGSAW';
         creditTxt.setFormat(Paths.font("vcr.ttf"), 30, FlxColor.WHITE, RIGHT);
         creditTxt.setBorderStyle(OUTLINE, FlxColor.BLACK, 3, 1);       
         creditTxt.scrollFactor.set();
@@ -1432,31 +1432,7 @@ class PlayState extends MusicBeatState
 							});
 						});
 					});
-				case "feaster":
-					eggballs.visible = true;
-					eggballs.animation.play('burst');
-					FlxG.sound.play(Paths.sound('eggburst'));
 
-					FlxTween.tween(FlxG.camera, {zoom: 0.89}, 2.5, {
-						ease: FlxEase.quadInOut,
-						onComplete: function(twn:FlxTween)
-						{
-							FlxTween.tween(FlxG.camera, {zoom: 0.72}, 0.5, {ease: FlxEase.quadInOut});
-						}
-					});
-
-					eggballs.animation.finishCallback = function(pog:String)
-						{
-							FlxTween.tween(gfGroup, {alpha: 1}, 0.45);
-							FlxTween.tween(audience, {alpha: 1}, 0.45);
-							FlxTween.tween(FlxG.camera, {zoom: 0.65}, 0.5, {ease: FlxEase.quadInOut});
-
-							eggballs.animation.play('idle');
-							dadGroup.visible = true;
-							audience.visible = true;
-							dad.playAnim('enter', true);
-							startCountdown();
-						}
 				case 'senpai' | 'roses' | 'thorns':
 					if(isStoryMode){
 						if(daSong == 'roses') FlxG.sound.play(Paths.sound('ANGRY'));
@@ -1472,40 +1448,6 @@ class PlayState extends MusicBeatState
 		} else {
 			switch (daSong)
 			{
-				case "feaster":
-					eggballs.visible = true;
-					eggballs.animation.play('burst');
-					#if debug
-					FlxG.sound.play(Paths.sound('eggburst'));
-
-					FlxTween.tween(FlxG.camera, {zoom: 0.89}, 2.5, {
-						ease: FlxEase.quadInOut,
-						onComplete: function(twn:FlxTween)
-						{
-							FlxTween.tween(FlxG.camera, {zoom: 0.72}, 0.5, {ease: FlxEase.quadInOut});
-						}
-					});
-
-					eggballs.animation.finishCallback = function(pog:String)
-						{
-							#else
-							eggballs.animation.curAnim.curFrame = eggballs.animation.curAnim.frames.length;
-						#end
-
-
-							FlxTween.tween(gfGroup, {alpha: 1}, 0.45);
-							FlxTween.tween(audience, {alpha: 1}, 0.45);
-							FlxTween.tween(FlxG.camera, {zoom: 0.65}, 0.5, {ease: FlxEase.quadInOut});
-
-							eggballs.animation.play('idle');
-							dadGroup.visible = true;
-							audience.visible = true;
-							dad.playAnim('enter', true);
-							startCountdown();
-							#if debug
-						}
-							#end
-
 				default:
 					startCountdown();
 			}
