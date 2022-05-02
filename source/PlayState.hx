@@ -566,7 +566,7 @@ class PlayState extends MusicBeatState
 				if(!ClientPrefs.lowQuality) {
 					var bg:BGSprite = new BGSprite('philly/sky', -100, 0, 0.1, 0.1);
 					add(bg);
-
+				}
 
 				//addShaderToCamera('game', chromAb);
 				//chromAb.setChrome(0.01);
@@ -601,7 +601,6 @@ class PlayState extends MusicBeatState
 				add(city);
 				add(phillyCityLights);
 				add(phillyTrain);
-				}
 				add(streetBehind);
 				add(street);
 				if (SONG.song.toLowerCase() == 'philly nice')
@@ -611,6 +610,7 @@ class PlayState extends MusicBeatState
 			case 'blammed night':
 				var bg:BGSprite = new BGSprite('philly/skyDark', -100, 0, 0.1, 0.1);
 				add(bg);
+
 				//addShaderToCamera('game', chromAb);
 				//chromAb.setChrome(0.01);
 
@@ -641,10 +641,10 @@ class PlayState extends MusicBeatState
 				add(peoplelol);
 
 			case 'limo': //Week 4
-				if(!ClientPrefs.lowQuality) {
 				var skyBG:BGSprite = new BGSprite('limo/limoSunset', -120, -50, 0.1, 0.1);
 				add(skyBG);
 
+				if(!ClientPrefs.lowQuality) {
 					limoMetalPole = new BGSprite('gore/metalPole', -500, 220, 0.4, 0.4);
 					add(limoMetalPole);
 
@@ -1303,11 +1303,11 @@ class PlayState extends MusicBeatState
 		add(scoreTxt);
 
 		creditTxt = new FlxText(886, 637, 348);
-        creditTxt.text = 'OTIMIZADO por\nFirey/Lucas ADV\n Portado por SAW';
-        creditTxt.setFormat(Paths.font("vcr.ttf"), 29, FlxColor.WHITE, RIGHT);
-        creditTxt.setBorderStyle(OUTLINE, FlxColor.BLACK, 3, 1);       
-        creditTxt.scrollFactor.set();
-        add(creditTxt);
+		creditTxt.text = 'OTIMIZADO por\nFirey/Lucas ADV\n Portado por SAW';
+		creditTxt.setFormat(Paths.font("vcr.ttf"), 29, FlxColor.WHITE, RIGHT);
+		creditTxt.setBorderStyle(OUTLINE, FlxColor.BLACK, 3, 1);       
+		creditTxt.scrollFactor.set();
+		add(creditTxt);
 
 		botplayTxt = new FlxText(400, timeBarBG.y + 55, FlxG.width - 800, "BOTPLAY", 32);
 		botplayTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
@@ -1433,7 +1433,31 @@ class PlayState extends MusicBeatState
 							});
 						});
 					});
+				case "feaster":
+					eggballs.visible = true;
+					eggballs.animation.play('burst');
+					FlxG.sound.play(Paths.sound('eggburst'));
 
+					FlxTween.tween(FlxG.camera, {zoom: 0.89}, 2.5, {
+						ease: FlxEase.quadInOut,
+						onComplete: function(twn:FlxTween)
+						{
+							FlxTween.tween(FlxG.camera, {zoom: 0.72}, 0.5, {ease: FlxEase.quadInOut});
+						}
+					});
+
+					eggballs.animation.finishCallback = function(pog:String)
+						{
+							FlxTween.tween(gfGroup, {alpha: 1}, 0.45);
+							FlxTween.tween(audience, {alpha: 1}, 0.45);
+							FlxTween.tween(FlxG.camera, {zoom: 0.65}, 0.5, {ease: FlxEase.quadInOut});
+
+							eggballs.animation.play('idle');
+							dadGroup.visible = true;
+							audience.visible = true;
+							dad.playAnim('enter', true);
+							startCountdown();
+						}
 				case 'senpai' | 'roses' | 'thorns':
 					if(isStoryMode){
 						if(daSong == 'roses') FlxG.sound.play(Paths.sound('ANGRY'));
@@ -1449,6 +1473,40 @@ class PlayState extends MusicBeatState
 		} else {
 			switch (daSong)
 			{
+				case "feaster":
+					eggballs.visible = true;
+					eggballs.animation.play('burst');
+					#if debug
+					FlxG.sound.play(Paths.sound('eggburst'));
+
+					FlxTween.tween(FlxG.camera, {zoom: 0.89}, 2.5, {
+						ease: FlxEase.quadInOut,
+						onComplete: function(twn:FlxTween)
+						{
+							FlxTween.tween(FlxG.camera, {zoom: 0.72}, 0.5, {ease: FlxEase.quadInOut});
+						}
+					});
+
+					eggballs.animation.finishCallback = function(pog:String)
+						{
+							#else
+							eggballs.animation.curAnim.curFrame = eggballs.animation.curAnim.frames.length;
+						#end
+
+
+							FlxTween.tween(gfGroup, {alpha: 1}, 0.45);
+							FlxTween.tween(audience, {alpha: 1}, 0.45);
+							FlxTween.tween(FlxG.camera, {zoom: 0.65}, 0.5, {ease: FlxEase.quadInOut});
+
+							eggballs.animation.play('idle');
+							dadGroup.visible = true;
+							audience.visible = true;
+							dad.playAnim('enter', true);
+							startCountdown();
+							#if debug
+						}
+							#end
+
 				default:
 					startCountdown();
 			}
