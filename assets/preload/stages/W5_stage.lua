@@ -1,5 +1,6 @@
 function onCreate()
 
+	if not lowQuality then
     makeLuaSprite('bg','W5/bgWalls', -1199, -861)
 	addLuaSprite('bg',false)
 	setLuaSpriteScrollFactor('bg' , 0.6, 0.6);
@@ -22,6 +23,7 @@ function onCreate()
 	addAnimationByPrefix('Audience','IdleEaster', 'Bottom Level Boppers', 24, true)
 	addLuaSprite('Audience', false)
 	objectPlayAnimation ('Audience', 'IdleEaster', false);
+end
 
 	makeLuaSprite('floor','W5/fgSnow',-581,675)
 	addLuaSprite('floor', false);
