@@ -609,10 +609,8 @@ class PlayState extends MusicBeatState
 						add(peoplelol);
 					}
 			case 'blammed night':
-				if(!ClientPrefs.lowQuality) {
 				var bg:BGSprite = new BGSprite('philly/skyDark', -100, 0, 0.1, 0.1);
 				add(bg);
-				}
 				//addShaderToCamera('game', chromAb);
 				//chromAb.setChrome(0.01);
 
