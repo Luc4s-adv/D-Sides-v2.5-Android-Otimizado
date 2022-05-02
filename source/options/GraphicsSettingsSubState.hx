@@ -52,7 +52,7 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 		addOption(option);
 
 		var option:Option = new Option('Anti-Aliasing',
-			'se Ativado/Marcado, ativa o anti-aliasing, diminui o desempenho\ Porém Os Visuais seram mais nítidos (desativados apenas nessa versão otimizada)',
+			'se Ativado/Marcado, ativa o anti-aliasing, diminui o desempenho, Porém Os Visuais seram mais nítidos (desativados apenas nessa versão otimizada)',
 			'globalAntialiasing',
 			'bool',
 			false);
