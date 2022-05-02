@@ -612,7 +612,7 @@ class PlayState extends MusicBeatState
 				if(!ClientPrefs.lowQuality) {
 				var bg:BGSprite = new BGSprite('philly/skyDark', -100, 0, 0.1, 0.1);
 				add(bg);
-
+				}
 				//addShaderToCamera('game', chromAb);
 				//chromAb.setChrome(0.01);
 
@@ -638,7 +638,6 @@ class PlayState extends MusicBeatState
 
 				add(city);
 				add(phillyCityLights);
-				}
 				add(streetBehind);
 				add(street);
 				add(peoplelol);
