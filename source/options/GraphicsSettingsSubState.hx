@@ -38,24 +38,24 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 
 		//I'd suggest using "Low Quality" as an example for making your own option since it is the simplest here
 		var option:Option = new Option('Low Quality', //Name
-			'If checked, disables some background details,\ndecreases loading times and improves performance.', //Description
+			'Se ativado, remove parte do Fundo e outras detalhes (recomendado ativar em celulares com pouca memória ram.)', //Description
 			'lowQuality', //Save data variable name
 			'bool', //Variable type
 			false); //Default value
 		addOption(option);
 
-		var option:Option = new Option('Directional Camera', //Name
-			'If checked, the camera moves with the focused character\'s directional animations.', //Description
+		var option:Option = new Option('Movimentação de câmera', //Name
+			'Se marcado, a câmera se move com a animação direcional do personagem em foco.', //Description
 			'directionalCam', //Save data variable name
 			'bool', //Variable type
 			true); //Default value
 		addOption(option);
 
 		var option:Option = new Option('Anti-Aliasing',
-			'If unchecked, disables anti-aliasing, increases performance\nat the cost of sharper visuals.',
+			'se Ativado/Marcado, ativa o anti-aliasing, diminui o desempenho\ Porém Os Visuais seram mais nítidos (desativados apenas nessa versão otimizada)',
 			'globalAntialiasing',
 			'bool',
-			true);
+			false);
 		option.showBoyfriend = true;
 		option.onChange = onChangeAntiAliasing; //Changing onChange is only needed if you want to make a special interaction after it changes the value
 		addOption(option);
