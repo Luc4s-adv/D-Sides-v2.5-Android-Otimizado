@@ -566,7 +566,7 @@ class PlayState extends MusicBeatState
 				if(!ClientPrefs.lowQuality) {
 					var bg:BGSprite = new BGSprite('philly/sky', -100, 0, 0.1, 0.1);
 					add(bg);
-				}
+
 
 				//addShaderToCamera('game', chromAb);
 				//chromAb.setChrome(0.01);
@@ -601,6 +601,7 @@ class PlayState extends MusicBeatState
 				add(city);
 				add(phillyCityLights);
 				add(phillyTrain);
+				}
 				add(streetBehind);
 				add(street);
 				if (SONG.song.toLowerCase() == 'philly nice')
@@ -608,6 +609,7 @@ class PlayState extends MusicBeatState
 						add(peoplelol);
 					}
 			case 'blammed night':
+				if(!ClientPrefs.lowQuality) {
 				var bg:BGSprite = new BGSprite('philly/skyDark', -100, 0, 0.1, 0.1);
 				add(bg);
 
@@ -636,15 +638,16 @@ class PlayState extends MusicBeatState
 
 				add(city);
 				add(phillyCityLights);
+				}
 				add(streetBehind);
 				add(street);
 				add(peoplelol);
 
 			case 'limo': //Week 4
+				if(!ClientPrefs.lowQuality) {
 				var skyBG:BGSprite = new BGSprite('limo/limoSunset', -120, -50, 0.1, 0.1);
 				add(skyBG);
 
-				if(!ClientPrefs.lowQuality) {
 					limoMetalPole = new BGSprite('gore/metalPole', -500, 220, 0.4, 0.4);
 					add(limoMetalPole);
 
