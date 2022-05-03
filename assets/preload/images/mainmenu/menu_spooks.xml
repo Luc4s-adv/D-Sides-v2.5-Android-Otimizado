@@ -4,10 +4,4 @@
 	<!-- http://www.adobe.com/products/animate.html -->
 	<SubTexture name="deez skid and pump idle0000" x="5" y="5" width="1362" height="1409"/>
 	<SubTexture name="deez skid and pump idle0001" x="5" y="5" width="1362" height="1409"/>
-	<SubTexture name="deez skid and pump idle0002" x="1372" y="5" width="1362" height="1409"/>
-	<SubTexture name="deez skid and pump idle0003" x="1372" y="5" width="1362" height="1409"/>
-	<SubTexture name="deez skid and pump idle0004" x="2739" y="5" width="1362" height="1409"/>
-	<SubTexture name="deez skid and pump idle0005" x="2739" y="5" width="1362" height="1409"/>
-	<SubTexture name="deez skid and pump idle0006" x="2739" y="5" width="1362" height="1409"/>
-	<SubTexture name="deez skid and pump idle0007" x="2739" y="5" width="1362" height="1409"/>
 </TextureAtlas>

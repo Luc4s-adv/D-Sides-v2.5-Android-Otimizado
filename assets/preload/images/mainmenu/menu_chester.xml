@@ -6,18 +6,4 @@
 	<SubTexture name="deez chester idle0001" x="5" y="5" width="730" height="939"/>
 	<SubTexture name="deez chester idle0002" x="5" y="5" width="730" height="939"/>
 	<SubTexture name="deez chester idle0003" x="5" y="5" width="730" height="939"/>
-	<SubTexture name="deez chester idle0004" x="740" y="5" width="730" height="939"/>
-	<SubTexture name="deez chester idle0005" x="740" y="5" width="730" height="939"/>
-	<SubTexture name="deez chester idle0006" x="740" y="5" width="730" height="939"/>
-	<SubTexture name="deez chester idle0007" x="740" y="5" width="730" height="939"/>
-	<SubTexture name="deez chester idle0008" x="5" y="5" width="730" height="939"/>
-	<SubTexture name="deez chester idle0009" x="5" y="5" width="730" height="939"/>
-	<SubTexture name="deez chester idle0010" x="5" y="5" width="730" height="939"/>
-	<SubTexture name="deez chester idle0011" x="5" y="5" width="730" height="939"/>
-	<SubTexture name="deez chester idle0012" x="740" y="5" width="730" height="939"/>
-	<SubTexture name="deez chester idle0013" x="740" y="5" width="730" height="939"/>
-	<SubTexture name="deez chester idle0014" x="740" y="5" width="730" height="939"/>
-	<SubTexture name="deez chester idle0015" x="740" y="5" width="730" height="939"/>
-	<SubTexture name="deez chester idle0016" x="5" y="949" width="730" height="939"/>
-	<SubTexture name="deez chester idle0017" x="5" y="949" width="730" height="939"/>
 </TextureAtlas>
